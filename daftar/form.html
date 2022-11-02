@@ -56,16 +56,255 @@
     <!-- NAVBAR END -->
 
     <!-- FORM -->
-    <div class="section" id="form">
-        <div class="container-fluid pt-5 pb-3">
-            <div class="container pt-4">
+    <section id="form" class="pt-5">
+        <div class="contaniner-fluid pt-4 pb-4">
+            <div class="container">
                 <div class="row text-center">
                     <h2>Form Pendaftaran Online</h2>
                 </div>
+                <form action="">
+                    <div class="bg-primary text-light">
+                        <strong>Data Diri</strong>
+                    </div>
+                    <div class="row p">
+                        <div class="col-sm-7">
+                            <div class="form-group">
+                                <label>Nama Lengkap :</label>
+                                <input type="text" name="nama" class="form-control" placeholder="Masukan nama Lengkap">
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="form-group">
+                                <label>No Telp :</label>
+                                <input type="text" name="nama" class="form-control" placeholder="Masukan no telp">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label>Tempat Lahir :</label>
+                                <input type="text" name="tempat_lahir" class="form-control"
+                                    placeholder="Masukan Tempat Lahir">
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label>Tanggal Lahir :</label>
+                                <input type="date" name="tanggal_lahir" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="form-group">
+                                <label>Email :</label>
+                                <input type="email" name="email" class="form-control" placeholder="Masukan Email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <div class="form-group">
+                                <label>NIK :</label>
+                                <input type="text" name="nama" class="form-control" placeholder="Masukan NIK">
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="form-group">
+                                <label>Nama Ibu Kandung :</label>
+                                <input type="text" name="namaibu" class="form-control"
+                                    placeholder="Masukan nama Ibu kandung">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label>Jenis Kelamin :</label>
+                                <select class="form-control" name="jk">
+                                    <option>Pilih</option>
+                                    <option>Laki-laki</option>
+                                    <option>Perempuan</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label>Agama :</label>
+                                <select class="form-control" name="agama">
+                                    <option>Pilih</option>
+                                    <option>Islam</option>
+                                    <option>Kristen</option>
+                                    <option>Katolik</option>
+                                    <option>Hindu</option>
+                                    <option>Budha</option>
+                                    <option>Lainnya</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="form-group">
+                                <label>Kewarganegaraan:</label>
+                                <select class="form-control" name="kewarganegaraan">
+                                    <option>Pilih</option>
+                                    <option value="WNI">Warga Negara Indonesia</option>
+                                    <option value="WNA">Warga Negara Asing</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ALAMAT -->
+                    <div class="pt-3">
+                        <strong>Alamat Asal</strong>
+                    </div>
+                    <div class="row pt-2">
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label>Provinsi :</label>
+                                <select class="form-control" name="prov">
+                                    <option>Pilih</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label>Kabupaten :</label>
+                                <select class="form-control" name="kab">
+                                    <option>Pilih</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label>Kecamatan :</label>
+                                <select class="form-control" name="kec">
+                                    <option>Pilih</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label>Kode Pos :</label>
+                                <input class="form-control" type="text" name="pos" placeholder="Masukan kode pos">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <div class="form-group">
+                                <label>Alamat:</label>
+                                <textarea class="form-control" name="alamat" rows="4"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PENDIDIKAN -->
+                    <div class="pt-3">
+                        <strong>Pendidikan</strong>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label>Pendidikan Terakhir :</label>
+                                <select class="form-control" name="pendidikan">
+                                    <option>Pilih</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label>Nama Sekolah :</label>
+                                <input class="form-control" type="text" name="pos" placeholder="Masukan nama sekolah">
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label>Tahun Kelulusan :</label>
+                                <select class="form-control" name="pendidikan">
+                                    <option>Pilih</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PROGRAM STUDI -->
+                    <div class="pt-3">
+                        <strong>Pilih Program Studi</strong>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label>Fakulatas :</label>
+                                <select class="form-control" name="fakultas">
+                                    <option value="">Pilih</option>
+                                    <option value="">Fakultas Teknik dan Informatika</option>
+                                    <option value="">Fakultas Ekonomi dan Bisnis</option>
+                                    <option value="">Fakultas Bahasa dan Budaya</option>
+                                    <option value="">Fakultas Psikologi</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label>Program Studi</label>
+                                <select class="form-control" name="progdi">
+                                    <option value="">Pilih</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-3 text-end">
+                        <div class="col">
+                            <button type="submit" name="Submit" id="Submit" class="btn btn-primary">Daftar</button>
+                            <button type="reset" class="btn btn-secondary">Reset</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
-    </div>
+    </section>
     <!-- FORM END-->
+
+    <!-- FOOTER -->
+    <section id="footer">
+        <!-- <hr class="my-4" /> -->
+        <div class="container-fluid pt-2 pb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 pt-3">
+                        <h5 class="pb-4">Universitas Borneo</h5>
+                        <p>Jln. Yos Sudarso XX</p>
+                        <p>Palangka Raya</p>
+                    </div>
+                    <div class="col-md-3 pt-3">
+                        <h5 class="pb-4">Contact</h5>
+                        <p>Phone : 0843xxxxxxx</p>
+                        <p>WhatsApp : 0854xxxxxxx</p>
+                        <p>Email : borneouniv@gmail.com</p>
+                    </div>
+                    <div class="col-md-3 pt-3">
+                        <h5 class="pb-4">Sosial Media</h5>
+                        <p>
+                            <a href="#" class="link-dark">
+                                <i class="bi bi-facebook"> Facebook</i>
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#" class="link-dark">
+                                <i class="bi bi-instagram"> Instagram</i>
+                            </a>
+                        </p>
+                        <p>
+                            <a href="#" class="link-dark">
+                                <i class="bi bi-twitter"> Twitter</i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center bg-light">
+        <p class="pt-3">CopyRight 2022 - Universitas Borneo</p>
+    </footer>
+    <!-- FOOTER END-->
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
