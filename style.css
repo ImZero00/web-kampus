@@ -31,13 +31,17 @@ body {
 }
 
 #footer {
-    background-color: #3333;
+  background-color: #3333;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-/* #content {
-  padding-top: 20%;
+/* .gallery-img {
+  width: 100%;
+}
+
+#gallery .row > * {
+  padding: 0;
 } */
