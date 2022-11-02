@@ -1,0 +1,43 @@
+body {
+  font-family: 'League Spartan', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+  background: url('./img/bg-img.jpg') no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #ffff;
+}
+
+#about {
+  background-color: #e3eeff;
+}
+
+#about .lingkaran .bi {
+  font-size: 6rem;
+}
+
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  margin: auto;
+  color: #0d6efd;
+}
+
+#info {
+  background-color: #e3eeff;
+}
+
+#footer {
+    background-color: #3333;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* #content {
+  padding-top: 20%;
+} */
